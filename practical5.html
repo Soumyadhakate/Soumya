@@ -1,11 +1,10 @@
 <html>
     <title>practical 5</title>
     <head>
-        <h2 align="centre">
-            SCHOLERSHIP REGISTRATION FORM
-        </h2>
+        <h2 align="center">SCHOLERSHIP REGISTRATION FORM</h2>
     </head>
-    <body bobystyle="background-color: lightyellow;"> 
+    
+    <body bgcolor="lightyellow"> 
         <form>
             <legend>
                 <h3>
@@ -18,25 +17,25 @@
                 <input type="text" required placeholder="First Name">
                 <input type="text" required placeholder="Middle Name">
                 <input type="text" required placeholder="Last Name">
-                <br>
+                <br><br>
                 <label for="email">
                     Enter Email:
                 </label>
                 <input type="email" required placeholder="Enter Your Email">
-                <br>
+                <br><br>
                 <label for="password">Enter Password:</label>
                 <input type="Password" required placeholder="Enter Your Password">
-                <br>
+                <br><br>
                 <label for="Confirm Password">
                     Confirm Password:
                 </label>
                 <input type="Password" required placeholder="Enter Confirm Password">
-                <br>
+                <br><br>
                 <label for="DOB">
                     Enter Date Of Birth:
                 </label>
                 <input type="date" required="Calender">
-                <br>
+                <br><br>
                 <label>Select Your Gender</label>
                 <div class="gender-group">
                     <label for="male">Male</label>
@@ -48,7 +47,7 @@
                 </div>
                 <label for="address">Enter Address:</label>
                 <input type="textarea" required="Enter Your Address"></textarea>
-                <br>
+                <br><br>
                 <label>Select Your State:</label>
                 <div class="state-group">
                     <select>
@@ -62,7 +61,35 @@
                         <option>Bihar</option>
                     </select>
                 </div>
-        </form> 
+                <legend><h3>Educational Info</h3></legend>
+                        <div class="branch-group">
+                            <input type="checkbox"/>CSE
+                            <input type="checkbox"/>IT
+                            <input type="checkbox"/>ETC
+                            <input type="checkbox"/>Civil
+                            <input type="checkbox"/>Mech<br><br>
+                            </div>
+
+                           <div>
+                            <label for="ssc">SCC % marks</label>
+                            <input type="%marks" required/><br><br>
+                            <label for="ssc">HSC % marks</label>
+                            <input type="%marks" required/><br><br>
+                            <label for="ssc">B.Tech % marks</label>
+                            <input type="%marks" required/><br><br>
+                            </div>
+
+                   <legend><h3>Upload Document:</h3></legend>
+                   <label for="photo">Upload</label>
+                   <input type="file" required/><br><br>
+                   <label for="photo">Income Certificate:</label>
+                   <input type="file" required/><br><br>
+                   <label for="photo">Caste Certificate:</label>
+                   <input type="file" required/><br><br>
+                   <input type="submit" value="REGISTRATION"/>
+
+                </fieldset>
+            </form>
     </body>
 </html>
-    
+        

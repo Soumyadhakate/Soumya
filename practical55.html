@@ -1,0 +1,114 @@
+<html>
+    <title>practical 5</title>
+    <head>
+        <p style="text-align:center">
+        <img src="sidd.jpg" width="700" height="300">
+        </p>
+        <h2 align="center">INTERNSHIP RESISTRATION FORM</h2>
+    </head>
+    
+    <body bgcolor="lightyellow"> 
+        <form>
+            <legend>
+                <h3>
+                    Personal Information
+                </h3>
+            </legend>
+            <label for="name">
+                 Enter Name:
+                </label>
+                <input type="text" required placeholder="First Name">
+                <input type="text" required placeholder="Middle Name">
+                <input type="text" required placeholder="Last Name">
+                <br><br>
+                <label for="email">
+                    Enter Email:
+                </label>
+                <input type="email" required placeholder="Enter Your Email">
+                <br><br>
+                <label for="number">Phone Number:</label>
+                <input type="number" required placeholder="">
+                <br><br>
+                <label for="text">Collage/School</label>
+                <input type="text" required><br><br>
+                <label for="DOB">
+                    Enter Date Of Birth:
+                </label>
+                <input type="date" required="Calender">
+                <br><br>
+                <label for="age">Age</label>
+                <input type="number"required min="1" max="100"><br><br>
+                <label>Select Your Gender</label>
+                <div class="gender-group">
+                    <label for="male">Male</label>
+                    <input type="radio" value="male" required="Male">
+                    <label for="female">Female</label>
+                    <input type="radio" value="female" required="Female">
+                    <label for="other">Other</label>
+                    <input type="radio" value="other" required="Other"><br><br>
+                </div>
+                <label for="address">Enter Address:</label>
+                <input type="textarea" required="Enter Your Address"></textarea>
+                <br><br>
+                <label>Select Your State:</label>
+                <div class="state-group">
+                    <select>
+                        <option>
+                            ...................Select State...............
+                        </option>
+                        <option>Maharashtra</option>
+                        <option>Gujrat</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Tamil Nadu</option>
+                        <option>Bihar</option>
+                    </select>
+                </div><br><br>
+                <label>Select Your City:</label>
+                <div class="state-group">
+                    <select>
+                        <option>
+                            .............Select City..........
+                        </option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Nagpur</option>
+                        <option>Chandrapur</option>
+                        <option>Gadchiroli</option>
+                        <option>Bhandara</option>
+                    </select>
+                </div>
+                <legend><h3>Educational Info</h3></legend>
+                        <div class="branch-group">
+                            <input type="checkbox"/>CSE
+                            <input type="checkbox"/>IT
+                            <input type="checkbox"/>ETC
+                            <input type="checkbox"/>Civil
+                            <input type="checkbox"/>Mech<br><br>
+                            </div>
+
+                           <div>
+                            <label for="ssc">SCC % marks</label>
+                            <input type="%marks" required/><br><br>
+                            <label for="ssc">HSC % marks</label>
+                            <input type="%marks" required/><br><br>
+                            <label for="ssc">B.Tech % marks</label>
+                            <input type="%marks" required/><br><br>
+                            </div>
+                            <legend><h3>Technical Skill:</h3></legend>
+                            <input type="textarea" required height="100">
+
+                   <legend><h3>Upload Document:</h3></legend>
+                   <label for="photo">Upload</label>
+                   <input type="file" required/><br><br>
+                   <label for="photo">Income Certificate:</label>
+                   <input type="file" required/><br><br>
+                   <label for="photo">Caste Certificate:</label>
+                   <input type="file" required/><br><br>
+                   <label for="file">B-Tech Diploma</label>
+                   <input type="file"required/><br><br>
+                   <input type="submit" value="Submit"/>
+
+                </fieldset>
+            </form>
+    </body>
+</html>
